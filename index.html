@@ -13,13 +13,13 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li>
+          <li class="header__menu-item header__menu-item_no-bullit">
             <a class="header__menu-link">главная</a>
           </li>
-          <li class="header__menu-item_active">
+          <li class="header__menu-item header__menu-item_active">
             <a class="header__menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__menu-item_active">
+          <li class="header__menu-item header__menu-item_active">
             <a class="header__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
@@ -37,8 +37,8 @@
             >
           </li>
           <li>
-            <a class="header__address-link"
-              >наб. Принсенграхт 263- <br />265, Амстердам</a
+            <p class="header__address-link"
+              >наб. Принсенграхт 263- <br />265, Амстердам</p
             >
           </li>
         </ul>
@@ -54,10 +54,10 @@
     <main>
       <section class="cover content-section overlay">
         <div class="overlay__absolute">
-          <h1 class="cover__title title__spacing">
-            <span class="cover__title_item1">оно</span>
-            <span class="cover__title_item2">тебе</span>
-            <span class="cover__title_item3">надо</span>
+          <h1 class="cover__title">
+            <span class="cover__title_ono">оно</span>
+            <span class="cover__title_tebe">тебе</span>
+            <span class="cover__title_nado">надо</span>
           </h1>
           <div class="cover__description">
             <p class="cover__text">Аукцион вещей, в которые никто не верил</p>
@@ -69,7 +69,7 @@
       <section class="lots content-section">
         <h2 class="lots__title lots-about__title">Лоты</h2>
         <ul class="lots__list">
-          <li class="lots__list-item1 lots__setting-image overlay">
+          <li class="lots__list-film lots__setting-image overlay">
             <div class="overlay__absolute">
               <a class="lots__list-accent"
                 >Фильм режиссёра, который бросил киношколу</a
@@ -80,7 +80,7 @@
               </article>
             </div>
           </li>
-          <li class="lots__list-item2 lots__setting-image overlay">
+          <li class="lots__list-book lots__setting-image overlay">
             <div class="overlay__absolute">
               <a class="lots__list-accent"
                 >Книга, где описан один скучный день из жизни рекламного
@@ -96,7 +96,7 @@
               </article>
             </div>
           </li>
-          <li class="lots__list-item3 lots__setting-image overlay">
+          <li class="lots__list-picture lots__setting-image overlay">
             <div class="overlay__absolute">
               <a class="lots__list-accent"
                 >Картина, которую повторит даже 5-летний сын маминой подруги</a
@@ -150,7 +150,7 @@
       <address class="footer__address">
         <ul class="footer__address-list">
           <li class="footer__menu-item footer__menu-item_active">
-            <a class="footer__menu-link">+9 999 555 5555</a>
+            <a class="footer__menu-link" href="tel:+99995555555">+9 999 555 5555</a>
           </li>
           <li class="footer__menu-item footer__menu-item_active">
             <a class="footer__menu-link">info@sobaka.ge</a>
@@ -163,8 +163,6 @@
           </li>
         </ul>
       </address>
-      <nav></nav>
-      <div class="logo__list"></div>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-item">
